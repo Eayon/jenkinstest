@@ -12,7 +12,7 @@ pipeline {
                     // Maven settings and global settings can also be defined in Jenkins Global Tools Configuration
       
                   // Run the maven build
-                  sh "mvn clean install"
+                  sh "mvn clean compile"
 
                 }
                     
