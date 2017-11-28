@@ -4,7 +4,7 @@ pipeline {
 
     stages {
         stage('Build') {
-            steps {
+           
                 echo 'Building..',
                 withMaven(Maven:'M3')(
                     // Maven installation declared in the Jenkins "Global Tool Configuration"
@@ -16,7 +16,7 @@ pipeline {
 
                 }
                     
-           }
+          
             
         
         }
