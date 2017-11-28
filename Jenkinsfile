@@ -5,12 +5,9 @@ pipeline {
     stages {
         stage('Build') {
            
-                echo 'Building..',
-          
-             echo 'Building..',
-                     echo 'Building..',
-                     echo 'Building..',
-                     echo 'Building..'
+            steps {
+                echo 'building..'
+            }
         
         }
         stage('Test') {
